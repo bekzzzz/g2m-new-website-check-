@@ -397,28 +397,6 @@ const TOURS = [
   {
     days: 8,
     length: "short",
-    style: "classic",
-    title_en: "Classic Kyrgyzstan | Lakes, Mountains & Nomad Encounters",
-    title_zh: "8天 Song-Kul 經典遊牧之心",
-    img: "assets/images-7-day-tour-section/son-kol.jpg",
-    link: "8days-classic.html",
-    label_en: "Classic loop",
-    label_zh: "經典環線",
-    desc_en:
-      "Burana Tower, Karakol Gorge, Altyn-Arashan hot springs, Skazka Canyon, an eagle hunter and two nights at Song-Kul with nomad families.",
-    desc_zh:
-      "布拉納塔、卡拉科爾峽谷、阿爾金阿拉善溫泉、童話峽谷、獵鷹人，以及在頌湖與遊牧家庭度過兩晚。",
-    // Details from the registration form (shown only in this language)
-    info_zh: {
-      code: "SKC",
-      intensity: 3,
-      season: "5月底 - 9月中",
-      highlight: "深入海拔 3000m 草原、住傳統 yurt 氈房、看見真實高山放牧",
-    },
-  },
-  {
-    days: 8,
-    length: "short",
     style: "slow",
     title_en: "Slow Travel at the Foot of the Tien Shan | Around Issyk-Kul",
     title_zh: "8天 Issyk-Kul 經典山谷慢旅行",
@@ -436,6 +414,28 @@ const TOURS = [
       intensity: 2,
       season: "5月 - 11月",
       highlight: "留在山谷與湖邊慢遊、舒服玩山玩水、健行。住宿相對舒適。",
+    },
+  },
+  {
+    days: 8,
+    length: "short",
+    style: "classic",
+    title_en: "Classic Kyrgyzstan | Lakes, Mountains & Nomad Encounters",
+    title_zh: "8天 Song-Kul 經典遊牧之心",
+    img: "assets/images-7-day-tour-section/son-kol.jpg",
+    link: "8days-classic.html",
+    label_en: "Classic loop",
+    label_zh: "經典環線",
+    desc_en:
+      "Burana Tower, Karakol Gorge, Altyn-Arashan hot springs, Skazka Canyon, an eagle hunter and two nights at Song-Kul with nomad families.",
+    desc_zh:
+      "布拉納塔、卡拉科爾峽谷、阿爾金阿拉善溫泉、童話峽谷、獵鷹人，以及在頌湖與遊牧家庭度過兩晚。",
+    // Details from the registration form (shown only in this language)
+    info_zh: {
+      code: "SKC",
+      intensity: 3,
+      season: "5月底 - 9月中",
+      highlight: "深入海拔 3000m 草原、住傳統 yurt 氈房、看見真實高山放牧",
     },
   },
   {
