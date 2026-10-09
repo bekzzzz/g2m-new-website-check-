@@ -144,8 +144,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/home-v2.css?v=4" />
-    <script defer src="JS/home-v2.js?v=4"></script>
+    <link rel="stylesheet" href="css/home-v2.css?v=10" />
+    <script defer src="JS/home-v2.js?v=25"></script>
     <link rel="stylesheet" href="css/site-chrome.css" />
     <script defer src="JS/site-chrome.js?v=3"></script>
   </head>
@@ -273,7 +273,7 @@
         <div class="hero-bottom">
           <div class="hero-actions">
             <a class="btn btn-primary" href="#tours"
-              ><span data-i18n="tours_title">Special Tours</span>
+              ><span data-i18n="tours_btn">Special Tours</span>
               <i class="fa-solid fa-arrow-down"></i
             ></a>
             <a class="btn btn-ghost" href="contact.html" data-i18n="custom_btn"
@@ -337,7 +337,7 @@
             <div>
               <span class="eyebrow" data-i18n="nav_tours">Tours</span>
               <h2 class="section-title" data-i18n="tours_title">
-                Special Tours
+                Kyrgyzstan 2027: which travel style is right for you?
               </h2>
               <p class="section-lead" data-i18n="tours_subtitle">
                 Curated journeys across Kyrgyzstan — culture, mountains, and
@@ -383,23 +383,112 @@
       </section>
 
       <!---------- Authentic journey: Bek's home mountains (9 days) ---------->
-      <section class="authentic" id="authentic" aria-labelledby="authenticTitle">
-        <img class="authentic-bg" loading="lazy" src="assets/8-days-migration/migration.jpg" alt="Herders riding up to the summer pastures" data-i18n-alt="auth_img_main" />
+      <section
+        class="authentic"
+        id="authentic"
+        aria-labelledby="authenticTitle"
+      >
+        <img
+          class="authentic-bg"
+          loading="lazy"
+          src="assets/8-days-migration/migration.jpg"
+          alt="Herders riding up to the summer pastures"
+          data-i18n-alt="auth_img_main"
+        />
         <div class="container authentic-inner">
           <div class="authentic-text reveal">
-            <span class="authentic-badge"><i class="fa-solid fa-star"></i><span data-i18n="auth_badge">Signature journey</span></span>
-            <span class="authentic-kicker" data-i18n="auth_kicker">Authentic journey · With Bek's family</span>
-            <h2 class="authentic-title" id="authenticTitle" data-i18n="auth_title">Deep Nomad Life</h2>
-            <p class="authentic-sub" data-i18n="auth_sub">9 days in Bek's home mountains</p>
-            <p class="authentic-lead" data-i18n="auth_lead">
-              This isn't a sightseeing tour. You travel to the village near Toktogul where Bek grew up, live with his family and relatives, and ride with them into the mountains, all the way up to the nomads' summer camps.
+            <span class="authentic-badge"
+              ><i class="fa-solid fa-star"></i
+              ><span data-i18n="auth_badge">Signature journey</span></span
+            >
+            <span class="authentic-kicker" data-i18n="auth_kicker"
+              >Authentic journey · With Bek's family</span
+            >
+            <h2
+              class="authentic-title"
+              id="authenticTitle"
+              data-i18n="auth_title"
+            >
+              Deep Nomad Life
+            </h2>
+            <p class="authentic-sub" data-i18n="auth_sub">
+              9 days in Bek's home mountains
             </p>
+            <p class="authentic-lead" data-i18n="auth_lead">
+              This isn't a sightseeing tour. You travel to the village near
+              Toktogul where Bek grew up, live with his family and relatives,
+              and ride with them into the mountains, all the way up to the
+              nomads' summer camps.
+            </p>
+            <!-- Details from the registration form (Chinese only) -->
+            <div class="authentic-info zh-only" lang="zh-Hant">
+              <p class="authentic-intensity">
+                <span>強度</span><b aria-label="5/5">★★★★★</b>
+              </p>
+              <ul class="authentic-box">
+                <li>
+                  <i class="fa-regular fa-calendar"></i
+                  ><span><b>適合季節：</b>6月中 - 9月底</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-horse"></i
+                  ><span><b>亮點：</b>多日騎馬進入荒野</span>
+                </li>
+              </ul>
+            </div>
             <ul class="authentic-facts">
-              <li><i class="fa-regular fa-calendar"></i><span data-i18n="auth_fact1">9 days</span></li>
-              <li><i class="fa-solid fa-horse"></i><span data-i18n="auth_fact2">4 days on horseback</span></li>
-              <li><i class="fa-solid fa-house-chimney"></i><span data-i18n="auth_fact3">Family homes &amp; yurts</span></li>
+              <li>
+                <i class="fa-regular fa-calendar"></i
+                ><span data-i18n="auth_fact1">9 days</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-horse"></i
+                ><span data-i18n="auth_fact2">4 days on horseback</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-house-chimney"></i
+                ><span data-i18n="auth_fact3">Family homes &amp; yurts</span>
+              </li>
             </ul>
-            <a class="btn btn-primary" href="9days-toktogul.html"><span data-i18n="auth_cta">Discover the journey</span> <i class="fa-solid fa-arrow-right"></i></a>
+            <a class="btn btn-primary" href="9days-toktogul.html"
+              ><span data-i18n="auth_cta">Discover the journey</span>
+              <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!---------- What's included (all tours) ---------->
+      <section class="section included" id="included" aria-labelledby="includedTitle">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow" data-i18n="inc_kicker">Price</span>
+              <h2 class="section-title" id="includedTitle" data-i18n="inc_title">What's included in our tours</h2>
+            </div>
+          </div>
+          <div class="included-grid">
+            <div class="included-card included-yes reveal">
+              <h3><i class="fa-solid fa-circle-check"></i><span data-i18n="inc_yes_title">Included</span></h3>
+              <ul>
+                <li><i class="fa-solid fa-check"></i><span data-i18n="inc_y1">Accommodation and meals for the whole itinerary</span></li>
+                <li><i class="fa-solid fa-check"></i><span data-i18n="inc_y2">Accommodation on Day 0 and the last night</span></li>
+                <li><i class="fa-solid fa-check"></i><span data-i18n="inc_y3">Guide</span></li>
+                <li><i class="fa-solid fa-check"></i><span data-i18n="inc_y4">Private transport for the itinerary (incl. airport transfers)</span></li>
+                <li><i class="fa-solid fa-check"></i><span data-i18n="inc_y5">All entrance fees on the itinerary</span></li>
+                <li><i class="fa-solid fa-check"></i><span data-i18n="inc_y6">Every 8-day tour includes one 2–3 hour horse ride</span></li>
+              </ul>
+            </div>
+            <div class="included-card included-no reveal">
+              <h3><i class="fa-solid fa-circle-xmark"></i><span data-i18n="inc_no_title">Not included</span></h3>
+              <ul>
+                <li><i class="fa-solid fa-xmark"></i><span data-i18n="inc_n1">International flights</span></li>
+                <li><i class="fa-solid fa-xmark"></i><span data-i18n="inc_n2">Visa fees</span></li>
+                <li><i class="fa-solid fa-xmark"></i><span data-i18n="inc_n3">Personal travel insurance</span></li>
+                <li><i class="fa-solid fa-xmark"></i><span data-i18n="inc_n4">Tips</span></li>
+                <li><i class="fa-solid fa-xmark"></i><span data-i18n="inc_n5">Other personal expenses</span></li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
