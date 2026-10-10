@@ -65,8 +65,8 @@
       src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
     ></script>
     <script defer src="testimonial.js"></script>
-    <link rel="stylesheet" href="css/site-chrome.css" />
-    <script defer src="JS/site-chrome.js?v=3"></script>
+    <link rel="stylesheet" href="css/site-chrome.css?v=3" />
+    <script defer src="JS/site-chrome.js?v=4"></script>
   </head>
   <body>
     <!---------- Site header (shared: css/site-chrome.css + JS/site-chrome.js; links as in index.html) ---------->
@@ -112,7 +112,7 @@
             </button>
           </li>
         </ul>
-        <a class="g2m-cta" href="contact.html" data-i18n="custom_btn"
+        <a class="g2m-cta" href="https://www.surveycake.com/s/yQpxD" target="_blank" rel="noopener" data-i18n="custom_btn"
           >Start my trip plan</a
         >
         <button
@@ -140,7 +140,7 @@
           </div>
           <div class="email-address">
             <i class="fa fa-envelope fa-lg"></i>
-            <a class="contact-emil-text" href="mailto:bekruby.kg@gmail.com"
+            <a class="contact-emil-text" style="display: inline-block; padding: 8px 0" href="mailto:bekruby.kg@gmail.com"
               ><p>bekruby.kg@gmail.com</p></a
             >
           </div>
@@ -149,17 +149,21 @@
             <div class="social-links">
               <a
                 target="_blank"
+                rel="noopener"
+                aria-label="Facebook"
                 href="https://www.facebook.com/profile.php?id=100063753081808"
-                ><i class="fa fa-facebook fa-2x"></i
+                ><i class="fa fa-facebook fa-2x" aria-hidden="true"></i
               ></a>
 
               <a
                 target="_blank"
+                rel="noopener"
+                aria-label="Instagram"
                 href="https://www.instagram.com/bek_ruby?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                ><i class="fa fa-instagram fa-2x"></i
+                ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i
               ></a>
-              <a target="_blank" href="https://www.youtube.com/@bek_ruby"
-                ><i class="fa fa-youtube fa-2x"></i
+              <a target="_blank" rel="noopener" aria-label="YouTube" href="https://www.youtube.com/@bek_ruby"
+                ><i class="fa fa-youtube fa-2x" aria-hidden="true"></i
               ></a>
             </div>
           </div>
@@ -183,6 +187,8 @@
             type="text"
             name="name"
             placeholder="Your Name"
+            aria-label="Your name"
+            autocomplete="name"
             class="contact-inputs"
             required
           />
@@ -190,17 +196,20 @@
             type="email"
             name="email"
             placeholder="Your Email"
+            aria-label="Your email"
+            autocomplete="email"
             class="contact-inputs"
             required
           />
           <textarea
             name="message"
             placeholder="Your Message"
+            aria-label="Your message"
             class="contact-inputs"
             required
           ></textarea>
           <button class="contact-btn" type="submit">
-            <span>Submit</span><img loading="lazy" src="" alt="Kyrgyzstan travel photo" />
+            <span>Submit</span>
           </button>
         </form>
       </div>
